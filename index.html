@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html class="" lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/styles/globalStyles.css" />
+    <link rel="stylesheet" href="./src/styles/header.css">
+    <link rel="stylesheet" href="./src/styles/index.css" />
+    <link rel="stylesheet" href="./src/styles/buttons.css">
+    <title>Open Music</title>
+  </head>
+  <body>
+    <header>
+      <div class="div-header">
+        <h1 class="header-logo">open music</h1>
+        <button class="bttn-img">
+          <img class="dark-theme__img" src="./src/assets/img/moon.svg" alt="moon">
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="genre-container">
+        <h2 class="genre-title">Gênero Musical</h2>
+        <ul class="bttns-container">
+          <!-- buttons here -->
+          <!-- <button class="bttns-genre"></button> -->
+        </ul>
+      </section>
+
+      <section class="price-container">
+        <div class="price-div">
+          <h2 class="price-title">Definir preço</h2>
+          <label for="price">Até R$150,00</label>
+        </div>
+        <input type="range" id="price" name="price" min="0" max="200" value="150" step="10">
+      </section>
+
+      <section class="album-container">
+        <h2 class="album-title">Albums Encontrados</h2>
+        <ul class="album-options">
+          <!-- albums here -->
+          <!-- <div class="album-card">
+            <img class="card-img" src="" alt="">
+            <div class="div-description">
+              <p class="autor-name"></p>
+              <p class="debut-year"></p>
+            </div>
+            <h2 class="album-name"></h2>
+            <div class="div-buy">
+              <p class="price-text"></p>
+              <button class="buy-bttn"></button>
+            </div>
+          </div> -->
+
+        </ul>
+      </section>
+
+    </main>
+
+    <script type="module" src="./src/scripts/theme.js"></script>
+    <script type="module" src="./src/scripts/index.js"></script>
+    <script type="module" src="./src/scripts/render.js"></script>
+    <script type="module" src="./src/scripts/filters.js"></script>
+  </body>
+</html>
