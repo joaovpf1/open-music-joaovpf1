@@ -1,0 +1,131 @@
+/* Desenvolva sua estilização aqui ... */
+.genre-container {
+    width: 641px;
+    height: 139px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.genre-title {
+    font-size: var(--font-2);
+    font-weight: var(--font-weight-1);
+    color: var(--color-grey-1);
+}
+
+.bttns-container {
+    height: 96px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.li-bttn {
+    display: flex;
+}
+
+.price-container {
+    width: 641px;
+    height: 67px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.price-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.price-title {
+    font-size: var(--font-2);
+    font-weight: var(--font-weight-1);
+    color: var(--color-grey-1);
+}
+
+label {
+    /* content-visibility:visible; */
+    font-size: var(--font-2);
+    font-weight: var(--font-weight-2);
+    color: var(--color-grey-2);
+}
+
+.album-container {
+    width: 641px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.album-title {
+    font-size: var(--font-2);
+    font-weight: var(--font-weight-1);
+    color: var(--color-grey-1);
+}
+
+.album-options {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+}
+
+.album-card {
+    display: flex;
+    flex-direction: column;
+    width: 308px;
+    height: 259px;
+    background-color: var(--color-grey-8);
+    border-radius: var(--radius-1);
+}
+
+.card-img {
+    width: 308px;
+    height: 113px;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.div-description {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 10px 16px;
+}
+
+.autor-name,
+.debut-year {
+    font-size: .75rem;
+    font-weight: var(--font-weight-2);
+    color: var(--color-grey-2);
+    
+}
+
+.album-name {
+    font-size: var(--font-2);
+    font-weight: var(--font-weight-1);
+    color: var(--color-grey-1);
+    padding: 10px 16px;
+}
+
+.div-buy {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 16px;
+}
+
+.price-text {
+    font-size: var(--font-3);
+    font-weight: var(--font-weight-1);
+    color: var(--color-grey-1);
+}
